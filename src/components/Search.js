@@ -17,7 +17,7 @@ const Search = () => {
       <CountryDropdown/>
       <PropertyDropdown/>
       <PrinceRangerDropdown/>
-      <button  onClick ={() => handleClick()}className=' bg-cyan-700 houver :bg-cyan-800 trasition w-full lg: max-w-[162px] rounded-lg flex justify-center items-center text-white text-lg'>
+      <button  onClick ={() => handleClick()}className=' bg-cyan-700 hover :bg-cyan-800 transition w-full lg: max-w-[162px] rounded-lg flex justify-center items-center text-white text-lg'>
         <RiSearch2Line/>
       </button>
       

@@ -9,13 +9,13 @@ const PriceRangeDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const princes = [
-    { value: 'Price range (any)' },
-    { value: 'Price range 1000000 - 1300000' },
-    { value: 'Price range 1300000 - 1600000' },
-    { value: 'Price range 1600000 - 1900000' },
-    { value: 'Price range 1900000 - 2200000' },
-    { value: 'Price range 100000 - 300000' },
-    { value: 'Price range 300000 - 400000' },
+    { value: "valores inicias (any)" },
+    { value: "valor inicial R$ 1000.00 - 1300000" },
+    { value: "valor inicial R$ 1300000 - 1600000" },
+    { value: "valor inicial R$ 1600000 - 1900000" },
+    { value: "Price range 1900000 - 2200000" },
+    { value: "Price range 100000 - 300000" },
+    { value: "Price range 300000 - 400000" },
   ];
 
   return (
@@ -26,7 +26,7 @@ const PriceRangeDropdown = () => {
           <div className='text-[15px] font-medium leading-tight'>
             {price}
           </div>
-          <div className='text-[13px]'>Choose price range.</div>
+          <div className='text-[13px]'>pesquise os  valores.</div>
           {isOpen ? (
             <RiArrowDropUpLine className='drop-icon-secondary' />
           ) : (

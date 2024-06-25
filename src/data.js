@@ -1,3 +1,5 @@
+//descrição dos imóveis
+
 // import house images
 import House1 from './assets/img/houses/house1.png';
 import House2 from './assets/img/houses/house2.png';

@@ -11,10 +11,12 @@ const Header = () => {
         </Link>
         {/* Buttons */}
         <div className='flex items-center gap-6'>
-          <Link className='hover:text-violet-900 transition' to='/login'>
+          {/* Log in */}
+          <Link className='hover:text-blue-300 transition' to='/login'>
             Log in
           </Link>
-          <Link className=' bg-cyan-700 hover: bg-cyan-800 text-white px-4 py-3 rounded-lg transition' to='/signup'>
+          { /* Sign up */}
+          <Link className=' bg-cyan-700 hover: bg-cyan-700 text-white px-4 py-3 rounded-lg transition' to='/signup'>
             Sign up
           </Link>
         </div>
@@ -24,4 +26,3 @@ const Header = () => {
 };
 
 export default Header;
- 

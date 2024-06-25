@@ -3,7 +3,7 @@ import { housesData } from "../data";
 import { useParams } from "react-router-dom";
 import { BiBed, BiBath, BiArea } from "react-icons/bi";
 import { Link } from "react-router-dom";
-
+//caixa de mensagem
 const PropertyDetails = () => {
   const { id } = useParams();
   console.log(id);
@@ -20,7 +20,7 @@ const PropertyDetails = () => {
             <h2 className="text-lg mb-4">{house.address}</h2>
           </div>
           <div className="mb-4 lg:mb-0 flex gap-x-2">
-            <div className="bg-green-500 rounded-full text-white px-3">
+            <div className="bg-white-500 rounded-full text-green px-30">
               {house.type}
             </div>
             <div className="text-3xl font-semibold text-cyan-600">
@@ -63,17 +63,17 @@ const PropertyDetails = () => {
             </div>
             <form className=" flex flex-col  gap-y-4">
               <input
-                className="border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm"
+                className="border border-gray-300 focus:border-cyan-700 outline-none rounded w-full px-4 h-14 text-sm"
                 type="text"
                 placeholder="Name"
               />
               <input
-                className="border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm"
+                className="border border-gray-300 focus:border-cyan-700 outline-none rounded w-full px-4 h-14 text-sm"
                 type="text"
                 placeholder="Email"
               />
               <input
-                className="border border-gray-300 focus:border-violet-700 outline-none rounded w-full px-4 h-14 text-sm"
+                className="border border-gray-300 focus:border-cyan-700 outline-none rounded w-full px-4 h-14 text-sm"
                 type="text"
                 placeholder="Phone"
               />

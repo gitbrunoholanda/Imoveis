@@ -1,5 +1,5 @@
 import React from 'react';
-
+//barra fixa do fundo
 const Footer = () => {
   return ( 
   <footer className='bg-cyan-950 py-8 text-center text-white'>
